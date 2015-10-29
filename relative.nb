@@ -1,0 +1,156 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4558,        147]
+NotebookOptionsPosition[      3996,        126]
+NotebookOutlinePosition[      4334,        141]
+CellTagsIndexPosition[      4291,        138]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"c", ":=", 
+  RowBox[{"3", "*", 
+   RowBox[{"10", "^", "8"}]}]}]], "Input",
+ CellChangeTimes->{{3.6549615638839912`*^9, 3.6549615708280573`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Gamma]", "[", "v_", "]"}], ":=", " ", 
+   FractionBox["1", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "-", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox["v", "c"], ")"}], "2"]}], "]"}]]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6549616547797832`*^9, 3.654961728474704*^9}, {
+  3.6549618854196663`*^9, 3.6549618881155443`*^9}, {3.6549650287896967`*^9, 
+  3.654965039285507*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"L", "[", 
+    RowBox[{"L0_", ",", " ", "v_"}], "]"}], " ", ":=", " ", 
+   FractionBox["L0", 
+    RowBox[{"\[Gamma]", "[", "v", "]"}]]}], ";"}]], "Input",
+ CellChangeTimes->{{3.654961758453212*^9, 3.6549617584578342`*^9}, {
+  3.654961853027207*^9, 3.654961912539343*^9}, {3.6550430804375*^9, 
+  3.655043081046875*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"T", "[", 
+    RowBox[{"\[Tau]_", ",", " ", "v_"}], "]"}], " ", ":=", " ", 
+   RowBox[{
+    RowBox[{"\[Gamma]", "[", "v", "]"}], "*", "\[Tau]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Tau]", "[", 
+    RowBox[{"T_", ",", " ", "v_"}], "]"}], " ", ":=", " ", 
+   FractionBox["T", 
+    RowBox[{"\[Gamma]", "[", "v", "]"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"XP", "[", 
+    RowBox[{"T_", ",", " ", "v_", ",", " ", "x_"}], "]"}], " ", ":=", " ", 
+   RowBox[{
+    RowBox[{"\[Gamma]", "[", "v", "]"}], "*", 
+    RowBox[{"(", 
+     RowBox[{"x", "-", 
+      RowBox[{"v", "*", "T"}]}], ")"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"X", "[", 
+    RowBox[{"T_", ",", " ", "v_", ",", " ", "xp_"}], "]"}], " ", ":=", " ", 
+   FractionBox[
+    RowBox[{"xp", "+", 
+     RowBox[{
+      RowBox[{"\[Gamma]", "[", "v", "]"}], "*", "v", "*", "T"}]}], 
+    RowBox[{"\[Gamma]", "[", "v", "]"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"UP", "[", 
+    RowBox[{"U_", ",", "v_"}], "]"}], ":=", 
+   FractionBox[
+    RowBox[{"U", "-", "v"}], 
+    RowBox[{"1", "-", 
+     FractionBox[
+      RowBox[{"U", "*", "v"}], 
+      SuperscriptBox["c", "2"]]}]]}], ";"}]}], "Input",
+ CellChangeTimes->{
+  3.654961757222834*^9, {3.654962177586401*^9, 3.6549622076347027`*^9}, {
+   3.654964339031806*^9, 3.6549643677590322`*^9}, {3.655043166828125*^9, 
+   3.655043208546875*^9}, {3.655043242578125*^9, 3.655043253984375*^9}, {
+   3.655043292359375*^9, 3.6550433165*^9}, 3.655043367078125*^9, {
+   3.655043646765625*^9, 3.65504372246875*^9}},
+ NumberMarks->False],
+
+Cell[" ", "Text",
+ Editable->False,
+ Selectable->False,
+ CellFrame->{{0, 0}, {0, 0.5}},
+ ShowCellBracket->False,
+ CellMargins->{{0, 0}, {1, 1}},
+ CellElementSpacings->{"CellMinHeight"->1},
+ CellFrameMargins->0,
+ CellFrameColor->RGBColor[0, 0, 1],
+ CellSize->{Inherited, 3}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.65504383615625*^9, 3.646313214927823*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6463131072906933`*^9, 3.646313128111825*^9}, {
+  3.6463131801785927`*^9, 3.646313181713368*^9}, {3.6463132203058233`*^9, 
+  3.646313223267303*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.646313218518783*^9, 3.6463132190027018`*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.64631321688529*^9, 3.646313217367713*^9}}]
+},
+WindowSize->{1432, 996},
+WindowMargins->{{-2, Automatic}, {0, Automatic}},
+FrontEndVersion->"10.0 for Linux ARM (32-bit) (November 19, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 168, 4, 32, "Input"],
+Cell[729, 26, 446, 12, 71, "Input"],
+Cell[1178, 40, 364, 9, 58, "Input"],
+Cell[1545, 51, 1687, 48, 214, "Input"],
+Cell[3235, 101, 273, 9, 5, "Text"],
+Cell[3511, 112, 91, 1, 32, "Input"],
+Cell[3605, 115, 196, 3, 32, InheritFromParent],
+Cell[3804, 120, 94, 1, 32, InheritFromParent],
+Cell[3901, 123, 91, 1, 32, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
