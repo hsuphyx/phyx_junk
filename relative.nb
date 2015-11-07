@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4558,        147]
-NotebookOptionsPosition[      3996,        126]
-NotebookOutlinePosition[      4334,        141]
-CellTagsIndexPosition[      4291,        138]
+NotebookDataLength[      4292,        143]
+NotebookOptionsPosition[      3872,        125]
+NotebookOutlinePosition[      4208,        140]
+CellTagsIndexPosition[      4165,        137]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -99,6 +99,19 @@ Cell[BoxData[{
    3.655043646765625*^9, 3.65504372246875*^9}},
  NumberMarks->False],
 
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"KE", "[", 
+    RowBox[{"v_", ",", " ", "m_"}], "]"}], " ", ":=", " ", 
+   RowBox[{"m", "*", 
+    SuperscriptBox["c", "2"], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Gamma]", "[", "v", "]"}], "-", "1"}], ")"}]}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.655822573859375*^9, 3.6558226060625*^9}}],
+
 Cell[" ", "Text",
  Editable->False,
  Selectable->False,
@@ -108,25 +121,11 @@ Cell[" ", "Text",
  CellElementSpacings->{"CellMinHeight"->1},
  CellFrameMargins->0,
  CellFrameColor->RGBColor[0, 0, 1],
- CellSize->{Inherited, 3}],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.65504383615625*^9, 3.646313214927823*^9}}],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.6463131072906933`*^9, 3.646313128111825*^9}, {
-  3.6463131801785927`*^9, 3.646313181713368*^9}, {3.6463132203058233`*^9, 
-  3.646313223267303*^9}}],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.646313218518783*^9, 3.6463132190027018`*^9}}],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.64631321688529*^9, 3.646313217367713*^9}}]
+ CellSize->{Inherited, 3}]
 },
-WindowSize->{1432, 996},
-WindowMargins->{{-2, Automatic}, {0, Automatic}},
-FrontEndVersion->"10.0 for Linux ARM (32-bit) (November 19, 2013)",
+WindowSize->{1600, 879},
+WindowMargins->{{0, Automatic}, {Automatic, 90}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (October 9, 2015)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -141,14 +140,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 168, 4, 32, "Input"],
-Cell[729, 26, 446, 12, 71, "Input"],
-Cell[1178, 40, 364, 9, 58, "Input"],
-Cell[1545, 51, 1687, 48, 214, "Input"],
-Cell[3235, 101, 273, 9, 5, "Text"],
-Cell[3511, 112, 91, 1, 32, "Input"],
-Cell[3605, 115, 196, 3, 32, InheritFromParent],
-Cell[3804, 120, 94, 1, 32, InheritFromParent],
-Cell[3901, 123, 91, 1, 32, InheritFromParent]
+Cell[729, 26, 446, 12, 81, "Input"],
+Cell[1178, 40, 364, 9, 65, "Input"],
+Cell[1545, 51, 1687, 48, 245, "Input"],
+Cell[3235, 101, 357, 11, 32, "Input"],
+Cell[3595, 114, 273, 9, 5, "Text"]
 }
 ]
 *)
