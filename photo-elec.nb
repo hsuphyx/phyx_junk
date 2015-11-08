@@ -1,0 +1,81 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2224,         72]
+NotebookOptionsPosition[      1990,         59]
+NotebookOutlinePosition[      2326,         74]
+CellTagsIndexPosition[      2283,         71]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"c", " ", ":=", " ", 
+   RowBox[{"3", "*", 
+    RowBox[{"10", "^", "8"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"h", " ", ":=", " ", 
+   RowBox[{"6.63", "*", 
+    RowBox[{"10", "^", 
+     RowBox[{"-", "34"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"E\[Gamma]", "[", "\[Lambda]_", "]"}], " ", ":=", " ", 
+   FractionBox["1240", "\[Lambda]"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Emax", " ", "[", 
+    RowBox[{"\[Lambda]_", ",", "\[Phi]_"}], "]"}], ":=", " ", 
+   RowBox[{
+    RowBox[{"E\[Gamma]", "[", "\[Lambda]", "]"}], "-", "\[Phi]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Lambda]db", "[", 
+    RowBox[{"m_", ",", " ", "v_"}], "]"}], ":=", " ", 
+   FractionBox["h", 
+    RowBox[{"m", "*", "v"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"vdb", "[", 
+    RowBox[{"m_", ",", " ", "\[Lambda]_"}], "]"}], " ", ":=", " ", 
+   FractionBox["h", 
+    RowBox[{"m", "*", "\[Lambda]"}]]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6558720836677103`*^9, 3.655872139696197*^9}, {
+  3.655872174000478*^9, 3.655872183720811*^9}, {3.655872229592959*^9, 
+  3.6558722308954268`*^9}, {3.655872376679784*^9, 3.655872411967433*^9}, {
+  3.655875283014935*^9, 3.6558753352859592`*^9}, {3.655875381725086*^9, 
+  3.655875402877043*^9}, {3.655986976031118*^9, 3.655986976889035*^9}}]
+},
+WindowSize->{1920, 1059},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (October 9, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1428, 37, 243, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
